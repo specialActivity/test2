@@ -1,10 +1,3 @@
-body {
-    margin: 0;
-    padding: 10px;
-    width: 1080px;
-    margin: auto;
-}
-
 .waterfall {
     width: 100%;
     margin: 0px auto;
@@ -30,10 +23,34 @@ img {
     object-position: 50% 50%;
 }
 
-.img_width{
+.img_width {
     font-size: 20px;
-    width: 100px;
-    min-width: 1080px;
+    width: 60%;
+    min-width: auto;
     background-color: #ccc;
-    
+    margin: auto;
 }
+
+.top_banner {
+    width: 1920px;
+
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+    top: 0%;  /*設置垂直位置*/
+
+    /*right: 1000px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+    background: #000000;  /*背景顏色*/
+
+    padding: 10px 20px;
+
+    /* border-radius: 10px;  圓角 */
+
+    text-align: justify;
+}
+
+.top_banner_btn {
+    text-align: center;
+
+}
+
